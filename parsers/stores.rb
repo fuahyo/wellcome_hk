@@ -8,8 +8,8 @@ body = 'param={"stores":[{"venderId":"vender_id","name":"24小時送達","defaul
 stores = json["data"]["online"]["storeList"]
 
 stores.each do |store|
-	vender_id = store["venderId"]
-	store_id = store["storeId"]
+	vender_id = store["venderId"].to_s
+	store_id = store["storeId"].to_s
 
 	vender_name = store["venderName"]
 	store_name = store["storeName"]
