@@ -1,0 +1,37 @@
+module ReqHeaders
+	cookie = ""
+    
+    HEADERS = {
+		"Device" => "iPhone13,1",
+		"Appname" => "com.yuurewards.app",
+		"Storegroupv4" => "1-942-8",
+		"Platform" => "IOS",
+		"Smartloading" => "0",
+		"Accept" => "*/*",
+		"Isopennotification" => "1",
+		"An_memberid" => "934480040720426",
+		"Wifistate" => "1",
+		"Channelid" => "APPSTORE",
+		"User-Agent" => "yuu/2.18.0 (iPhone; iOS 14.6; Scale/3.00)",
+		"Businesscode" => "1",
+		"Screen" => "812*375",
+		"Xyz" => "ac",
+		"Deliverylng" => "114.169361",
+		"Version" => "5.4.0",
+		"Uuid" => "e2873ced792d902efcbf56ba2ac0d91c35dd9c11",
+		"Apiversion" => "5.4.0",
+		"Accept-Encoding" => "gzip, deflate",
+		"Dmtenantid" => "11",
+		"Dmall-Locale" => "zh_HK",
+		"Currenttime" => "1657032181542",
+		"Networktype" => "1",
+		"Sysversion" => "14.6",
+		"Accept-Language" => "zh-Hant;q=1",
+		"Idfa" => "00000000-0000-0000-0000-000000000000",
+		"Env" => "app",
+		"Content-Type" => "application/x-www-form-urlencoded",
+		"Token" => "6653ca4e-6c8a-410d-a10c-ff96e5ea1fb8",
+		"Appmode" => "online",
+		"Connection" => "close",
+    }
+end

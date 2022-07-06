@@ -1,0 +1,23 @@
+seeder:
+  file: ./seeder/seeder.rb
+  disabled: false
+
+parsers:
+  - page_type: stores
+    file: ./parsers/stores.rb
+    disabled: false
+  - page_type: categories
+    file: ./parsers/categories.rb
+    disabled: true
+  - page_type: listings
+    file: ./parsers/listings.rb
+    disabled: true
+  - page_type: product
+    file: ./parsers/product.rb
+    disabled: true
+
+exporters:
+  - file: ./exporters/products_json.yaml
+    disabled: false
+  - file: ./exporters/products_csv.yaml
+    disabled: false
