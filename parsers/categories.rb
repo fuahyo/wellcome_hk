@@ -7,22 +7,32 @@ body = 'param={"src":0,"pageSize":20,"sort":0,"isOffline":false,"categoryLevel":
 
 categories = json["data"][0]["categoryList"]
 
-categories.each do |category|
-    category_id = category["categoryId"]
-    category_name = category["categoryName"]
-
-    pages << {
-        page_type: "listings",
-        url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
-        method: "POST",
-        body: body.gsub("store_id", page["vars"]["store_id"]).gsub("vender_id", page["vars"]["vender_id"]).gsub("category_id", category_id),
-        headers: ReqHeaders::HEADERS.merge(
-            "Storeid" => page["vars"]["store_id"],
-            "Venderid" => page["vars"]["vender_id"],
-        ),
-        vars: page["vars"].merge(
-            category_id: category_id,
-            category_name: category_name,
-        ),
+if categories.empty?
+    outputs << {
+        _collection: "empty_categories",
+        store_id: page["vars"]["store_id"],
+        store_name: page["vars"]["store_name"],
+        vender_id: page["vars"]["vender_id"],
+        vender_name: page["vars"]["vender_name"],
     }
+else
+    categories.each do |category|
+        category_id = category["categoryId"]
+        category_name = category["categoryName"]
+
+        pages << {
+            page_type: "listings",
+            url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
+            method: "POST",
+            body: body.gsub("store_id", page["vars"]["store_id"]).gsub("vender_id", page["vars"]["vender_id"]).gsub("category_id", category_id),
+            headers: ReqHeaders::HEADERS.merge(
+                "Storeid" => page["vars"]["store_id"],
+                "Venderid" => page["vars"]["vender_id"],
+            ),
+            vars: page["vars"].merge(
+                category_id: category_id,
+                category_name: category_name,
+            ),
+        }
+    end
 end
