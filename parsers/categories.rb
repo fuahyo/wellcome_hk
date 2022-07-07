@@ -1,41 +1,28 @@
 require './lib/headers'
 
-
-html = Nokogiri.HTML(content)
-
-
-categories = html.css("#subnav > ul > li[data-category-code] > a")
-
-categories_dict = {}
-
-categories.each do |cat|
-    cat_id = cat["data-maincat"]
-    cat_name = cat.text.strip.gsub(/&nbsp$/, "")
-
-    categories_dict["#{cat_id}"] = {
-        "category_id" => cat_id,
-        "category_name" => cat_name,
-    }
-end
+json = JSON.parse(content)
 
 
-categories_dict.each do |k, v|
-    category_id = v["category_id"]
-    category_name = v["category_name"]
-    url = "https://www.hktvmall.com/hktv/en/ajax/search_products?query=:relevance:street:main:category:#{category_id}:&currentPage=0&pageSize=60&pageType=searchResult&categoryCode=#{category_id}"
+body = 'param={"src":0,"pageSize":20,"sort":0,"isOffline":false,"categoryLevel":1,"sortRule":0,"sortKey":0,"noResultSearch":0,"promoting":0,"erpStoreId":"store_id","brandId":"0","businessCode":1,"pos":0,"categorySkuId":0,"pageNum":1,"from":3,"globalSelection":false,"filterProperties":[],"venderId":"vender_id","categoryId":"category_id","categoryType":1}'
+
+categories = json["data"][0]["categoryList"]
+
+categories.each do |category|
+    category_id = category["categoryId"]
+    category_name = category["categoryName"]
 
     pages << {
         page_type: "listings",
-        url: url,
-        priority: 100,
-        headers: ReqHeaders::HEADERS,
-        vars: {
-            nav: {
-                category_id: category_id,
-                category_name: category_name,
-            },
-            page_number: 1,
-            #categories_dict: categories_dict,
-        }
+        url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
+        method: "POST",
+        body: body.gsub("store_id", page["vars"]["store_id"]).gsub("vender_id", page["vars"]["vender_id"]).gsub("category_id", category_id),
+        headers: ReqHeaders::HEADERS.merge(
+            "Storeid" => page["vars"]["store_id"],
+            "Venderid" => page["vars"]["vender_id"],
+        ),
+        vars: page["vars"].merge(
+            category_id: category_id,
+            category_name: category_name,
+        ),
     }
 end

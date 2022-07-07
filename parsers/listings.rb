@@ -1,3 +1,12 @@
+require './lib/headers'
+
+json = JSON.parse(content)
+
+
+
+
+
+#######
 json = JSON.parse(content)
 
 current_page = page["vars"]["page_number"]
