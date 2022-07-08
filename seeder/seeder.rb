@@ -7,5 +7,5 @@ pages << {
 	url: "https://flow.dmall.com.hk/app/home/business",
 	method: "POST",
 	body: body,
-	headers: ReqHeaders::headers,
+	headers: ReqHeaders::HEADERS,
 }

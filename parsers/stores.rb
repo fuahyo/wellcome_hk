@@ -22,7 +22,7 @@ stores.each do |store|
 		url: "https://searchgw.dmall.com.hk/app/wareCategory/multi/list",
 		method: "POST",
 		body: body.gsub("vender_id", vender_id).gsub("store_id", store_id),
-		headers: ReqHeaders::headers,
+		headers: ReqHeaders::HEADERS,
 		vars: {
 			vender_id: vender_id,
 			store_id: store_id,

@@ -21,7 +21,7 @@ else
         category_name = category["categoryName"]
 
         body = body.gsub("store_id", page["vars"]["store_id"]).gsub("vender_id", page["vars"]["vender_id"]).gsub("category_id", category_id)
-        headers = ReqHeaders::headers.merge(
+        headers = ReqHeaders::HEADERS.merge(
             "Storeid" => page["vars"]["store_id"],
             "Venderid" => page["vars"]["vender_id"],
         )
