@@ -51,7 +51,7 @@ products.each_with_index do |product, idx|
 	})
 
 	outputs << {
-		_collection: "products",
+		_collection: "product_list",
         #_id: product_id,
         competitor_name: "WELLCOME",
         competitor_type: "dmart",
@@ -80,22 +80,21 @@ products.each_with_index do |product, idx|
         description: nil,
         img_url: nil,
         barcode: product_id,
-        sku: product["skuId"],
+        sku: product["sku"],
         url: nil,
-        is_available: 1,
+        is_available: true,
         crawled_source: "APP",
         is_promoted: false,
         type_of_promotion: nil, #type_of_promotion,
         promo_attributes: nil, #promo_attributes,
         is_private_label: nil, #is_private_label,
-        latitude: nil,
-        longitude: nil,
+        latitude: page["vars"]["latitude"],
+        longitude: page["vars"]["longitude"],
         reviews: nil, #reviews,
         store_reviews: nil, #store_reviews,
         item_attributes: nil,
         item_identifiers: item_identifiers,
         country_of_origin: nil,
         variants: nil,
-        #uom: uom,
 	}
 end

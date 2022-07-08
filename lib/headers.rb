@@ -1,7 +1,7 @@
 module ReqHeaders
 	cookie = ""
     
-    HEADERS = {
+    headers = {
 		"Device" => "iPhone13,1",
 		"Appname" => "com.yuurewards.app",
 		"Storegroupv4" => "1-942-8",

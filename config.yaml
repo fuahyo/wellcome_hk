@@ -12,9 +12,10 @@ parsers:
   - page_type: listings
     file: ./parsers/listings.rb
     disabled: false
-  - page_type: product
-    file: ./parsers/product.rb
-    disabled: true
+
+finisher:
+  file: ./finisher/finisher.rb
+  disabled: false
 
 exporters:
   - file: ./exporters/products_json.yaml
