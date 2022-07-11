@@ -78,7 +78,7 @@ products.each_with_index do |product, idx|
         size_std: size_std,
         size_unit_std: size_unit_std,
         description: nil,
-        img_url: nil,
+        img_url: product["wareImg"],
         barcode: product_id,
         sku: product["sku"],
         url: nil,
