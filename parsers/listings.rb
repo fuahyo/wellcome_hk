@@ -35,8 +35,8 @@ products.each_with_index do |product, idx|
 	product_id = product["wareId"]
 	product_name = product["wareName"]
 
-	customer_price_lc = product["onlinePromotionPrice"]
-	base_price_lc = product["onlinePrice"]
+	customer_price_lc = product["onlinePromotionPrice"]/100.0
+	base_price_lc = product["onlinePrice"]/100.0
 	has_discount = customer_price_lc < base_price_lc
 	discount_percentage = has_discount ? GetFunc::get_discount(base_price_lc, customer_price_lc) : nil
 
