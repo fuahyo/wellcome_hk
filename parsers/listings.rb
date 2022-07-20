@@ -21,8 +21,6 @@ if current_page == 1 && total_page > 1
 			headers: page["vars"]["headers"],
 			vars: page["vars"].merge("page_number" => pn),
 		}
-
-		break if pn > 2 # remove this line for full run
 	end
 end
 
@@ -58,7 +56,7 @@ products.each_with_index do |product, idx|
         store_name: page["vars"]["store_name"],
         store_id: page["vars"]["store_id"],
         country_iso: "HK",
-        language: "ENG",
+        language: "CHI",
         currency_code_lc: "HKD",
         scraped_at_timestamp: Time.now.strftime('%Y-%m-%d %H:%M:%S'),
         ###
