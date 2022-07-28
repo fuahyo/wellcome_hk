@@ -3,7 +3,8 @@ require './lib/headers'
 json = JSON.parse(content)
 
 
-body = 'param={"stores":[{"venderId":"vender_id","name":"24小時送達","defaultChosed":false,"showTrack":false,"timestamp":"","erpStoreId":"store_id","businessCode":1}],"from":1}'
+#body = 'param={"stores":[{"venderId":"vender_id","name":"24小時送達","defaultChosed":false,"showTrack":false,"timestamp":"","erpStoreId":"store_id","businessCode":1}],"from":1}'
+body = 'param={"stores":[{"venderId":"vender_id","name":"Full Basket Order","defaultChosed":false,"showTrack":false,"timestamp":"","erpStoreId":"store_id","businessCode":1}],"from":1}'
 
 stores = json["data"]["online"]["storeList"]
 

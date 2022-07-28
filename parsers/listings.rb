@@ -56,7 +56,7 @@ products.each_with_index do |product, idx|
         store_name: page["vars"]["store_name"],
         store_id: page["vars"]["store_id"],
         country_iso: "HK",
-        language: "CHI",
+        language: "ENG", #"CHI",
         currency_code_lc: "HKD",
         scraped_at_timestamp: Time.now.strftime('%Y-%m-%d %H:%M:%S'),
         ###
