@@ -21,17 +21,19 @@ else
         category_name = category["categoryName"]
 
         body = body.gsub("store_id", page["vars"]["store_id"]).gsub("vender_id", page["vars"]["vender_id"]).gsub("category_id", category_id)
-        headers = ReqHeaders::HEADERS.clone
+        
+        headers_clone = ReqHeaders::HEADERS.clone
+        headers = headers_clone.merge(
+            "Storeid" => page["vars"]["store_id"],
+            "Venderid" => page["vars"]["vender_id"],
+        )
 
         pages << {
             page_type: "listings",
             url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
             method: "POST",
             body: body,
-            headers: headers.merge(
-                "Storeid" => page["vars"]["store_id"],
-                "Venderid" => page["vars"]["vender_id"],
-            ),
+            headers: headers,
             vars: page["vars"].merge(
                 category_id: category_id,
                 category_name: category_name,
