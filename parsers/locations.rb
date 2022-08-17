@@ -8,7 +8,7 @@ locations.each do |location|
 
   coordinates = location.attr('data-latlng')
   lat,lng = coordinates.split("|")
-  body = 'param={"wifiList":[{"signal":0}],"flowDeliveryTimeType":"1","onlineShowType":1,"onlineBizCode":1,"deliveryLocation":{"longitude":'+lat+',"latitude":'+lng+'}}'
+  body = 'param={"wifiList":[{"signal":0}],"flowDeliveryTimeType":"1","onlineShowType":1,"onlineBizCode":1,"deliveryLocation":{"longitude":'+lng+',"latitude":'+lat+'}}'
 
   pages << {
       page_type: "stores",
