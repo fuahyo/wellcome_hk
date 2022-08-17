@@ -3,6 +3,9 @@ seeder:
   disabled: false
 
 parsers:
+  - page_type: locations
+    file: ./parsers/locations.rb
+    disabled: false
   - page_type: stores
     file: ./parsers/stores.rb
     disabled: false
