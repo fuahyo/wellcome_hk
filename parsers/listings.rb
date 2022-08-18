@@ -30,7 +30,7 @@ products = json["data"]["wareList"]
 
 products.each_with_index do |product, idx|
 	rank = idx + 1
-	product_id = product["wareId"]
+	product_id = product["sku"] #product["wareId"]
 	product_name = product["wareName"]
 
 	customer_price_lc = product["onlinePromotionPrice"]/100.0
@@ -78,7 +78,7 @@ products.each_with_index do |product, idx|
         description: nil,
         img_url: product["wareImg"],
         barcode: product_id,
-        sku: product["sku"],
+        sku: nil, #product["sku"],
         url: nil,
         is_available: true,
         crawled_source: "APP",
