@@ -96,3 +96,4 @@ products.each_with_index do |product, idx|
         variants: nil,
 	}
 end
+#
