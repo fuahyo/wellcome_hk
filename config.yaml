@@ -25,5 +25,5 @@ exporters:
     disabled: false
   - file: ./exporters/products_csv.yaml
     disabled: false
-  - file: ./exporters/products_list_csv.yaml
+  - file: ./exporters/product_list_csv.yaml
     disabled: false
