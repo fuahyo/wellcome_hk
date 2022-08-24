@@ -1,5 +1,6 @@
 require './lib/headers'
 
+vars = page["vars"]
 json = JSON.parse(content)
 
 
@@ -7,6 +8,13 @@ json = JSON.parse(content)
 body = 'param={"stores":[{"venderId":"vender_id","name":"Full Basket Order","defaultChosed":false,"showTrack":false,"timestamp":"","erpStoreId":"store_id","businessCode":1}],"from":1}'
 
 stores = json["data"]["online"]["storeList"]
+
+outputs << {
+	_collection: "stores_count_by_coordinate",
+	stores_found: stores.count,
+	latitude: vars["nav"]["latitude"],
+	longitude: vars["nav"]["longitude"],
+}
 
 stores.each do |store|
 	vender_id = store["venderId"].to_s
@@ -31,6 +39,6 @@ stores.each do |store|
 			store_name: store_name,
 			latitude: latitude,
 			longitude: longitude,
-		},
+		}.merge("nav" => vars["nav"]),
 	}
 end

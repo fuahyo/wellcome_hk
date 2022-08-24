@@ -9,7 +9,7 @@ categories = json["data"][0]["categoryList"]
 
 if categories.empty?
     outputs << {
-        _collection: "empty_categories",
+        _collection: "empty_stores",
         store_id: page["vars"]["store_id"],
         store_name: page["vars"]["store_name"],
         vender_id: page["vars"]["vender_id"],
