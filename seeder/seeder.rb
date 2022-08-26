@@ -6,6 +6,9 @@ pages << {
 }
 =end
 
+###
+
+=begin
 require './lib/headers'
 require 'csv'
 
@@ -39,4 +42,17 @@ locations.each_with_index do |location, idx|
   }
 
 end
+=end
 
+require './lib/headers'
+
+
+body = 'param={"wifiList":[{"signal":0}],"flowDeliveryTimeType":"1","onlineShowType":1,"onlineBizCode":1,"deliveryLocation":{"longitude":114.1693611,"latitude":22.319303900000001}}'
+
+pages << {
+  page_type: "stores",
+  url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
+  method: "POST",
+  body: body,
+  headers: ReqHeaders::Headers,
+}

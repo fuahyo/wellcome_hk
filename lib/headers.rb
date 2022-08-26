@@ -1,6 +1,44 @@
 module ReqHeaders
 	cookie = ""
-    
+
+	Headers = {
+		"Deliverylat" => "22.308047",
+		"Device" => "iPhone13,1",
+		"Appname" => "com.yuurewards.app",
+		"Storegroupv4" => "1-4002-8",
+		"Platform" => "IOS",
+		"Smartloading" => "0",
+		"Accept" => "*/*",
+		"Isopennotification" => "1",
+		"An_memberid" => "934480040720426",
+		"Wifistate" => "1",
+		"Ticketname" => "8F4AC269D7F83C8E508F9F4936D58F524CEBBDFA50619A93BCD206A13FB29C1D27C9D5C228097FFC27FE1CBD58EA7CEF27924684463E79371E8E4734795F6C93626DBCEBFBD53B63EF11237406824053BA381C5E295F434EDDDAB322CCF0BD689DB1FF40E5E268F70A2ED0B8BC74B837933B26FFFB703957D2AFB4440FF2694E",
+		"Channelid" => "APPSTORE",
+		"Screen" => "812*375",
+		"User-Agent" => "yuu/2.22.0 (iPhone; iOS 14.6; Scale/3.00)",
+		"Businesscode" => "1",
+		"Xyz" => "ac",
+		"Storeid" => "4002",
+		"Deliverylng" => "113.918481",
+		"Uuid" => "e2873ced792d902efcbf56ba2ac0d91c35dd9c11",
+		"Version" => "5.7.0",
+		"Apiversion" => "5.7.0",
+		"Dmtenantid" => "11",
+		"Accept-Encoding" => "gzip, deflate",
+		"Venderid" => "8",
+		"Dmall-Locale" => "en_US",
+		"Currenttime" => "1661509384067",
+		"Networktype" => "1",
+		"Sysversion" => "14.6",
+		"Accept-Language" => "en-US;q=1",
+		"Idfa" => "00000000-0000-0000-0000-000000000000",
+		"Env" => "app",
+		"Content-Type" => "application/x-www-form-urlencoded",
+		"Token" => "d52268e2-3beb-4545-9272-2b7e5c8f1938",
+		"Appmode" => "online",
+	}
+
+=begin #this is old header    
     HEADERS = {
 		"Device" => "iPhone13,1",
 		"Appname" => "com.yuurewards.app",
@@ -34,44 +72,5 @@ module ReqHeaders
 		"Appmode" => "online",
 		"Connection" => "close",
     }
-end
-
-=begin
-module ReqHeaders
-	cookie = ""
-    
-    HEADERS = {
-		"Device" => "iPhone13,1",
-		"Appname" => "com.yuurewards.app",
-		"Storegroupv4" => "1-942-8",
-		"Platform" => "IOS",
-		"Smartloading" => "0",
-		"Accept" => "*/*",
-		"Isopennotification" => "1",
-		"An_memberid" => "934480040720426",
-		"Wifistate" => "1",
-		"Channelid" => "APPSTORE",
-		"User-Agent" => "yuu/2.18.0 (iPhone; iOS 14.6; Scale/3.00)",
-		"Businesscode" => "1",
-		"Screen" => "812*375",
-		"Xyz" => "ac",
-		"Deliverylng" => "114.169361",
-		"Version" => "5.4.0",
-		"Uuid" => "e2873ced792d902efcbf56ba2ac0d91c35dd9c11",
-		"Apiversion" => "5.4.0",
-		"Accept-Encoding" => "gzip, deflate",
-		"Dmtenantid" => "11",
-		"Dmall-Locale" => "zh_HK",
-		"Currenttime" => "1657032181542",
-		"Networktype" => "1",
-		"Sysversion" => "14.6",
-		"Accept-Language" => "zh-Hant;q=1",
-		"Idfa" => "00000000-0000-0000-0000-000000000000",
-		"Env" => "app",
-		"Content-Type" => "application/x-www-form-urlencoded",
-		"Token" => "6653ca4e-6c8a-410d-a10c-ff96e5ea1fb8",
-		"Appmode" => "online",
-		"Connection" => "close",
-    }
-end
 =end
+end
