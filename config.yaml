@@ -3,15 +3,9 @@ seeder:
   disabled: false
 
 parsers:
-  - page_type: locations
-    file: ./parsers/locations.rb
-    disabled: true
   - page_type: stores
     file: ./parsers/stores.rb
     disabled: false
-  - page_type: categories
-    file: ./parsers/categories.rb
-    disabled: true
   - page_type: listings
     file: ./parsers/listings.rb
     disabled: false
