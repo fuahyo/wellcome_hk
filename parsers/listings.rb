@@ -1,54 +1,60 @@
-#require './lib/headers'
+require './lib/headers'
 require './lib/helpers'
 
+vars = page["vars"]
 json = JSON.parse(content)
+current_page = vars["page_number"]
 
 
-current_page = page["vars"]["page_number"]
+if current_page == 1
+    total_page = json["data"]["pageInfo"]["pageCount"]
 
-total_page = json["data"]["pageInfo"]["pageCount"]
+    if total_page > 1
+        (2..total_page).each do |pn|
+            body = page["body"].gsub('"pageNum":1', "\"pageNum\":#{pn}")
 
-if current_page == 1 && total_page > 1
-
-	(2..total_page).each do |pn|
-		body = page["body"].gsub('"pageNum":1', "\"pageNum\":#{pn}")
-
-		pages << {
-			page_type: "listings",
-			url: page["url"],
-			method: "POST",
-            body: body,
-			headers: page["vars"]["headers"],
-			vars: page["vars"].merge("page_number" => pn),
-		}
-	end
+            pages << {
+                page_type: "listings",
+                url: page["url"],
+                method: "POST",
+                body: body,
+                headers: page["vars"]["headers"],
+                vars: vars.merge("page_number" => pn),
+            }
+        end
+    end
 end
 
 
 
 products = json["data"]["wareList"]
 
-products.each_with_index do |product, idx|
-	rank = idx + 1
-	product_id = product["sku"] #product["wareId"]
-	product_name = product["wareName"]
+products.each_with_index do |prod, idx|
+    rank = idx + 1
 
-	customer_price_lc = product["onlinePromotionPrice"]/100.0
-	base_price_lc = product["onlinePrice"]/100.0
+    prod_id = prod["wareId"]
+    sku = prod["sku"]
+    prod_name = prod["wareName"]
+
+    customer_price_lc = prod["onlinePromotionPrice"]/100.0
+	base_price_lc = prod["onlinePrice"]/100.0
 	has_discount = customer_price_lc < base_price_lc
-	discount_percentage = has_discount ? GetFunc::get_discount(base_price_lc, customer_price_lc) : nil
+    discount_percentage = has_discount ? GetFunc::Get_Discount(base_price_lc, customer_price_lc) : nil
 
-	product_pieces = GetFunc::get_pieces(product_name)
+    prod_pieces = GetFunc::Get_Pieces(prod_name)
 
-	uom = GetFunc::get_uom(product_name)
+    uom = GetFunc::Get_Uom(prod_name)
 	size_std = uom[:size]
 	size_unit_std = uom[:unit]
 
-	item_identifiers = JSON.generate({
-		"barcode" => "'#{product_id}'"
+    img_url = prod["wareImg"]
+    is_available = prod["sell"]
+
+    item_identifiers = JSON.generate({
+		"barcode" => "'#{prod_id}'"
 	})
 
-	outputs << {
+    outputs << {
 		_collection: "product_list",
         #_id: product_id,
         competitor_name: "WELLCOME",
@@ -60,11 +66,11 @@ products.each_with_index do |product, idx|
         currency_code_lc: "HKD",
         scraped_at_timestamp: Time.now.strftime('%Y-%m-%d %H:%M:%S'),
         ###
-        competitor_product_id: product_id,
-        name: product_name,
+        competitor_product_id: prod_id,
+        name: prod_name,
         brand: nil,
-        category_id: page["vars"]["category_id"],
-        category: page["vars"]["category_name"],
+        category_id: nil, #page["vars"]["category_id"],
+        category: nil, #page["vars"]["category_name"],
         sub_category: nil,
         customer_price_lc: customer_price_lc,
         base_price_lc: base_price_lc,
@@ -72,28 +78,27 @@ products.each_with_index do |product, idx|
         discount_percentage: discount_percentage,
         rank_in_listing: rank,
         page_number: current_page,
-        product_pieces: product_pieces,
+        product_pieces: prod_pieces,
         size_std: size_std,
         size_unit_std: size_unit_std,
         description: nil,
-        img_url: product["wareImg"],
-        barcode: product_id,
-        sku: nil, #product["sku"],
+        img_url: img_url,
+        barcode: prod_id,
+        sku: sku,
         url: nil,
-        is_available: true,
+        is_available: is_available,
         crawled_source: "APP",
         is_promoted: false,
-        type_of_promotion: nil, #type_of_promotion,
-        promo_attributes: nil, #promo_attributes,
-        is_private_label: nil, #is_private_label,
+        type_of_promotion: nil,
+        promo_attributes: nil,
+        is_private_label: nil,
         latitude: page["vars"]["latitude"],
         longitude: page["vars"]["longitude"],
-        reviews: nil, #reviews,
-        store_reviews: nil, #store_reviews,
+        reviews: nil,
+        store_reviews: nil,
         item_attributes: nil,
         item_identifiers: item_identifiers,
         country_of_origin: nil,
         variants: nil,
 	}
 end
-#

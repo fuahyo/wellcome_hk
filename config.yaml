@@ -14,7 +14,7 @@ parsers:
     disabled: true
   - page_type: listings
     file: ./parsers/listings.rb
-    disabled: true
+    disabled: false
 
 finisher:
   file: ./finisher/finisher.rb

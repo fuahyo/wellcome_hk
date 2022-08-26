@@ -1,6 +1,6 @@
 module GetFunc
     class << self
-        def get_uom(x)
+        def Get_Uom(x)
         	uom_regex = [
                 /(?<![^\s])(\d*[\.,]?\d+)\s?(克)(?![^\s])/i,
                 /(?<![^\s])(\d*[\.,]?\d+)\s?(毫升)(?![^\s])/i,
@@ -25,7 +25,7 @@ module GetFunc
         end
 
 
-        def get_pieces(x)
+        def Get_Pieces(x)
         	product_pieces_regex = [
                 /(\d+)\s?片(?![^\s])/i,
                 #
@@ -45,7 +45,11 @@ module GetFunc
         end
 
 
-        def get_discount(base_price, customer_price)
+        def Get_Discount(x, y)
+            prices = [x, y]
+            base_price = prices.max
+            customer_price = prices.min
+
         	discount = (((base_price - customer_price) / base_price.to_f) * 100).round(7)
 
         	return discount
