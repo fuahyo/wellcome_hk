@@ -68,13 +68,14 @@ stores.each do |store|
 	longitude = store["longitude"]
 
 	headers = headers_clone.merge(
-		"Storeid" => page["vars"]["store_id"],
-		"Venderid" => page["vars"]["vender_id"],
+		"Venderid" => vender_id,
+		"Storeid" => store_id,
 	)
 
 	pages << {
 		page_type: "listings",
-		url: "https://searchgw.dmall.com.hk/app/wareCategory/multi/list",
+		#url: "https://searchgw.dmall.com.hk/app/wareCategory/multi/list",
+		url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
 		method: "POST",
 		body: body.gsub("vender_id", vender_id).gsub("store_id", store_id),
 		headers: headers,
