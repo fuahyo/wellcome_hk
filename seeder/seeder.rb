@@ -8,7 +8,6 @@ pages << {
 
 ###
 
-=begin
 require './lib/headers'
 require 'csv'
 
@@ -35,15 +34,15 @@ locations.each_with_index do |location, idx|
       url: "https://flow.dmall.com.hk/app/home/business",
       method: "POST",
       body: body,
-      headers: ReqHeaders::HEADERS,
+      headers: ReqHeaders::StoresHeaders,
       vars: {
         nav: nav,
       },
   }
 
 end
-=end
 
+=begin
 require './lib/headers'
 
 
@@ -56,3 +55,4 @@ pages << {
   body: body,
   headers: ReqHeaders::Headers,
 }
+=end
