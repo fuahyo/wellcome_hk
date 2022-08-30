@@ -12,7 +12,7 @@ parsers:
 
 finisher:
   file: ./finisher/finisher.rb
-  disabled: false
+  disabled: true
 
 exporters:
   - file: ./exporters/products_json.yaml

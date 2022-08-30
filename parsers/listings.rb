@@ -17,6 +17,7 @@ if products.nil?
         store_name: vars["store_name"],
     }
 else
+=begin #just for reparsing
     if current_page == 1
         total_page = json["data"]["pageInfo"]["pageCount"]
 
@@ -35,7 +36,7 @@ else
             end
         end
     end
-
+=end
 
     #iterating products
     products.each_with_index do |prod, idx|
@@ -65,7 +66,7 @@ else
 
         outputs << {
             _collection: "product_list",
-            #_id: product_id,
+            _id: prod_id,
             competitor_name: "WELLCOME",
             competitor_type: "dmart",
             store_name: page["vars"]["store_name"],
