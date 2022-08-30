@@ -65,7 +65,7 @@ else
         })
 
         outputs << {
-            _collection: "product_list",
+            _collection: "products",
             _id: prod_id,
             competitor_name: "WELLCOME",
             competitor_type: "dmart",
