@@ -17,7 +17,6 @@ if products.nil?
         store_name: vars["store_name"],
     }
 else
-=begin
     if current_page == 1
         total_page = json["data"]["pageInfo"]["pageCount"]
 
@@ -36,7 +35,6 @@ else
             end
         end
     end
-=end
 
 
     #iterating products
