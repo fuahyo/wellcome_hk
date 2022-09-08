@@ -17,6 +17,7 @@ if products.nil?
         store_name: vars["store_name"],
     }
 else
+=begin
     if current_page == 1
         total_page = json["data"]["pageInfo"]["pageCount"]
 
@@ -35,6 +36,7 @@ else
             end
         end
     end
+=end
 
 
     #iterating products
@@ -58,6 +60,29 @@ else
 
         img_url = prod["wareImg"]
         is_available = prod["sell"]
+
+
+        is_promoted = false
+        type_of_promotion = nil
+        promo_attributes = nil
+
+        promos = []
+        promotions = prod["promotionWareVO"]["promotionInfoList"].map{|i| i["displayInfo"]["proTag"]} rescue []
+        promotions.each do |i|
+            unless i.nil? || i.empty?
+                promos.append("'#{i}'")
+            end
+        end
+
+        unless promos.empty?
+            is_promoted = true
+            type_of_promotion = "tag"
+
+            promo_attributes = JSON.generate({
+                "promo_details" => promos.join(", "),
+            })
+        end
+
 
         item_identifiers = JSON.generate({
             "barcode" => "'#{prod_id}'"
@@ -97,9 +122,9 @@ else
             url: nil,
             is_available: is_available,
             crawled_source: "APP",
-            is_promoted: false,
-            type_of_promotion: nil,
-            promo_attributes: nil,
+            is_promoted: is_promoted,
+            type_of_promotion: type_of_promotion,
+            promo_attributes: promo_attributes,
             is_private_label: nil,
             latitude: page["vars"]["latitude"],
             longitude: page["vars"]["longitude"],
