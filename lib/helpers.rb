@@ -35,7 +35,7 @@ module GetFunc
                 /(\d+)\s?pc[s]?/i,
                 /(\d+)\s?pkt[s]?/i,
                 /(?<![^\s])(\d+)\s?x\s?\d+/i,
-                /[a-zA-Z]\s?x\s?(\d+)(?![^\s])/i,
+                /[a-zA-Z]\sx\s(\d+)(?![^\s])/i,
                 /(\d+)'?\s?s(?![^\s])/i,
             ].find {|ppr| x =~ ppr}
             product_pieces = product_pieces_regex ? $1.to_i : 1
