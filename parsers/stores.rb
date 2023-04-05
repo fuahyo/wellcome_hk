@@ -72,24 +72,24 @@ stores.each do |store|
 		"Storeid" => store_id,
 	)
 
-	pages << {
-		page_type: "listings",
-		#url: "https://searchgw.dmall.com.hk/app/wareCategory/multi/list",
-		url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
-		method: "POST",
-		body: body.gsub("vender_id", vender_id).gsub("store_id", store_id).gsub("replace_keyword",""),
-		headers: headers,
-		vars: {
-			vender_id: vender_id,
-			store_id: store_id,
-			vender_name: vender_name,
-			store_name: store_name,
-			latitude: latitude,
-			longitude: longitude,
-			page_number: 1,
-			headers: headers,
-		}.merge("nav" => vars["nav"]),
-	}
+  #pages << {
+  #	page_type: "listings",
+  ##url: "https://searchgw.dmall.com.hk/app/wareCategory/multi/list",
+  #	url: "https://searchgw.dmall.com.hk/app/search/wareSearch",
+  #	method: "POST",
+  #	body: body.gsub("vender_id", vender_id).gsub("store_id", store_id).gsub("replace_keyword",""),
+  #	headers: headers,
+  #	vars: {
+  #		vender_id: vender_id,
+  #		store_id: store_id,
+  #		vender_name: vender_name,
+  #		store_name: store_name,
+  #		latitude: latitude,
+  #		longitude: longitude,
+  #		page_number: 1,
+  #		headers: headers,
+  #	}.merge("nav" => vars["nav"]),
+  #}
 
   # extend the search for more keywords
   keywords=('a'..'z').to_a + ('0'..'9').to_a
