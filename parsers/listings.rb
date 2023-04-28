@@ -82,11 +82,11 @@ else
       "barcode" => "'#{prod_id}'",
     })
 
-    id = "#{prod_id}_#{vars["store_id"]}"
+    # id = "#{prod_id}_#{vars["store_id"]}"
 
     outputs << {
       _collection: "products",
-      _id: id,
+      _id: prod_id,
       competitor_name: "WELLCOME",
       competitor_type: "dmart",
       store_name: page["vars"]["store_name"],
