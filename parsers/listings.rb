@@ -17,23 +17,23 @@ if products.nil?
     store_name: vars["store_name"],
   }
 else
-  if current_page == 1
-    total_page = json["data"]["pageInfo"]["pageCount"]
-    if total_page > 1
-      (2..total_page).each do |pn|
-        body = page["body"].gsub('"pageNum":1', "\"pageNum\":#{pn}")
+  # if current_page == 1
+  #   total_page = json["data"]["pageInfo"]["pageCount"]
+  #   if total_page > 1
+  #     (2..total_page).each do |pn|
+  #       body = page["body"].gsub('"pageNum":1', "\"pageNum\":#{pn}")
 
-        pages << {
-          page_type: "listings",
-          url: page["url"],
-          method: "POST",
-          body: body,
-          headers: page["vars"]["headers"],
-          vars: vars.merge("page_number" => pn),
-        }
-      end
-    end
-  end
+  #       pages << {
+  #         page_type: "listings",
+  #         url: page["url"],
+  #         method: "POST",
+  #         body: body,
+  #         headers: page["vars"]["headers"],
+  #         vars: vars.merge("page_number" => pn),
+  #       }
+  #     end
+  #   end
+  # end
 
   #iterating products
   products.each_with_index do |prod, idx|
@@ -82,9 +82,11 @@ else
       "barcode" => "'#{prod_id}'",
     })
 
+    id = "#{prod_id}_#{vars["store_id"]}"
+
     outputs << {
       _collection: "products",
-      _id: prod_id,
+      _id: id,
       competitor_name: "WELLCOME",
       competitor_type: "dmart",
       store_name: page["vars"]["store_name"],
