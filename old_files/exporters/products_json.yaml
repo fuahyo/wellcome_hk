@@ -1,0 +1,7 @@
+exporter_name: products_json
+exporter_type: json
+collection: products
+write_mode: pretty_array
+export_filename: <d:yyyyMMdd>_<name>
+no_subfolder: true
+start_on_job_done: false
