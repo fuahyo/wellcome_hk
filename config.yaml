@@ -13,6 +13,9 @@ parsers:
     disabled: false
   - page_type: listings
     file: ./parsers/listings.rb
+    disabled: false
+  - page_type: product
+    file: ./parsers/product.rb
     disabled: true
 
 finisher:

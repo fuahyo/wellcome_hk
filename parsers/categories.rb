@@ -21,6 +21,7 @@ categories.each do |cat|
         page_type: "listings",
         url: "https://searchgw.rta-os.com/app/search/wareSearch",
         method: "POST",
+        priority: 100,
         body: body,
         headers: ReqHeaders::AllHeaders,
         vars: {
