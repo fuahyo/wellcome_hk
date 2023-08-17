@@ -16,7 +16,7 @@ parsers:
     disabled: false
   - page_type: product
     file: ./parsers/product.rb
-    disabled: true
+    disabled: false
 
 finisher:
   file: ./finisher/finisher.rb
@@ -26,6 +26,4 @@ exporters:
   - file: ./exporters/products_json.yaml
     disabled: false
   - file: ./exporters/products_csv.yaml
-    disabled: false
-  - file: ./exporters/product_list_csv.yaml
     disabled: false

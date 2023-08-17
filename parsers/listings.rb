@@ -48,11 +48,12 @@ end
 products.each_with_index do |prod, idx|
     rank = idx+1
 
-    prod_id = prod["sku"]
+    prod_id = prod["wareId"]
     prod_name = prod["wareName"]
+    prod_sku = prod["sku"]
 
     #body = 'param={"sku":"prod_id"}'
-    body = "param=%7B%22sku%22%3A%22#{prod_id}%22%7D"
+    body = "param=%7B%22sku%22%3A%22#{prod_sku}%22%7D"
 
     pages << {
         page_type: "product",
@@ -65,6 +66,7 @@ products.each_with_index do |prod, idx|
             "rank" => rank,
             "prod_id" => prod_id,
             "prod_name" => prod_name,
+            "prod_sku" => prod_sku,
         )
     }
 end

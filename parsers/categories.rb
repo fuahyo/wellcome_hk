@@ -1,4 +1,4 @@
-require './lib/headers'
+require "./lib/headers"
 
 json = JSON.parse(content)
 
