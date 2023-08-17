@@ -1,6 +1,7 @@
 require "./lib/helpers"
 
 vars = page["vars"]
+brand_dict = vars["brand_dict"]
 json = JSON.parse(content)
 
 prod = json["data"]
@@ -11,13 +12,16 @@ prod_name = prod["wareName"]
 prod_sku = prod["sku"].to_s
 
 store_name = "WELLCOME"
-store_id = vars["erp_store_id"].to_s
+store_id = vars["store_id"].to_s
 
-brand = nil
+brand = brand_dict["#{prod["brandId"]}"]
 is_private_label = nil
+if brand
+    is_private_label = (brand =~ /wellcome/i) ? false : true
+end
 
-cat_id = nil
-cat_name = nil
+cat_id = vars["cat_id"]
+cat_name = vars["cat_name"]
 subcat_name = nil
 
 customer_price_lc = (prod["promotionWareVO"]["unitProPrice"].to_f / 100.0)

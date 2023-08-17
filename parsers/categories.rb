@@ -5,8 +5,8 @@ json = JSON.parse(content)
 store_info = json["data"]["wareCategory"][0]["store"]
 
 vender_id = store_info["venderId"]
-erp_store_id = store_info["erpStoreId"]
-business_code = store_info["businessCode"]
+store_id = store_info["erpStoreId"]
+#business_code = store_info["businessCode"]
 
 
 categories = json["data"]["wareCategory"][0]["categoryList"]
@@ -26,8 +26,8 @@ categories.each do |cat|
         headers: ReqHeaders::AllHeaders,
         vars: {
             vender_id: vender_id,
-            erp_store_id: erp_store_id,
-            business_code: business_code,
+            store_id: store_id,
+            #business_code: business_code,
             cat_id: cat_id,
             cat_name: cat_name,
             page_number: 1,

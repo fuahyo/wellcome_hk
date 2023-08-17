@@ -6,9 +6,26 @@ vars = page["vars"]
 json = JSON.parse(content)
 current_page = vars["page_number"]
 
+brand_dict = vars["brand_dict"]
 
-#pagination
 if current_page == 1
+    #to make brand list
+    brand_dict = {}
+
+    json["data"]["properties"].each do |prop|
+        if prop["propertyName"] == "Brands"
+            prop["childProperties"].each do |brand|
+                brand_dict["#{brand["propertyId"]}"] = brand["propertyName"]
+            end
+        end
+    end
+    
+    if brand_dict.count < 1
+        raise "empty brand list"
+    end
+
+
+    #pagination
     total_pages = json["data"]["pageInfo"]["pageCount"]
 
     if total_pages > 1
@@ -23,16 +40,21 @@ if current_page == 1
                 priority: 90,
                 body: body,
                 headers: ReqHeaders::AllHeaders,
-                vars: vars.merge("page_number" => pn)
+                vars: vars.merge(
+                    "page_number" => pn,
+                    "brand_dict" => brand_dict,
+                )
             }
         end
     end
 
+    #log collection
     outputs << {
         _collection: "first_listings_page_info",
         nav_gid: page["gid"],
         category_id: vars["cat_id"],
         category_name: vars["cat_name"],
+        brand_count: brand_dict.count,
         prod_count: json["data"]["pageInfo"]["total"],
         total_pages: total_pages,
     }
@@ -67,6 +89,7 @@ products.each_with_index do |prod, idx|
             "prod_id" => prod_id,
             "prod_name" => prod_name,
             "prod_sku" => prod_sku,
+            "brand_dict" => brand_dict,
         )
     }
 end
