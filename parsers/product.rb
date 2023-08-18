@@ -20,7 +20,7 @@ if brand
     is_private_label = (brand =~ /wellcome/i) ? false : true
 end
 
-cat_id = vars["cat_id"]
+cat_id = vars["cat_id"].to_s
 cat_name = vars["cat_name"]
 subcat_name = nil
 
