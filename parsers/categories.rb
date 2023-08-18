@@ -1,12 +1,9 @@
 require "./lib/headers"
 
+vars = page["vars"]
 json = JSON.parse(content)
 
-
-#vender_id
-
-
-
+=begin
 categories = json["data"]["wareCategory"][0]["categoryList"]
 categories.each do |cat|
     cat_id = cat["categoryId"]
@@ -29,3 +26,24 @@ categories.each do |cat|
         }
     }
 end
+=end
+
+cat1 = json["data"]["wareCategory"][0]["categoryList"]
+cat1.each do |i|
+    cat_id = i["categoryId"]
+    cat_name = i["categoryName"]
+
+    subcat = []
+
+    cat2 = i["childCategoryList"]
+    cat2.each do |j|
+        subcat.append("#{j["categoryName"]}")
+
+        cat3 = j["childCategoryList"]
+        cat3.each do |k|
+            subcat.append("#{k["categoryName"]}")
+        end
+    end
+end
+
+puts subcat
