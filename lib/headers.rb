@@ -1,78 +1,6 @@
 module ReqHeaders
 	cookie = ""
 
-    StoresHeaders = {
-		"Device" => "iPhone13,1",
-		"Appname" => "com.yuurewards.app",
-		"Storegroupv4" => "1-942-8",
-		"Platform" => "IOS",
-		"Smartloading" => "0",
-		"Accept" => "*/*",
-		"Isopennotification" => "1",
-		"An_memberid" => "934480040720426",
-		"Wifistate" => "1",
-		"Channelid" => "APPSTORE",
-		"User-Agent" => "yuu/2.18.0 (iPhone; iOS 14.6; Scale/3.00)",
-		"Businesscode" => "1",
-		"Screen" => "812*375",
-		"Xyz" => "ac",
-		"Deliverylng" => "114.169361",
-		"Version" => "5.4.0",
-		"Uuid" => "e2873ced792d902efcbf56ba2ac0d91c35dd9c11",
-		"Apiversion" => "5.4.0",
-		"Accept-Encoding" => "gzip, deflate",
-		"Dmtenantid" => "11",
-		"Dmall-Locale" => "en_US", #"zh_HK",
-		"Currenttime" => "1657032181542",
-		"Networktype" => "1",
-		"Sysversion" => "14.6",
-		"Accept-Language" => "en-US;q=1", #"zh-Hant;q=1",
-		"Idfa" => "00000000-0000-0000-0000-000000000000",
-		"Env" => "app",
-		"Content-Type" => "application/x-www-form-urlencoded",
-		"Token" => "6653ca4e-6c8a-410d-a10c-ff96e5ea1fb8",
-		"Appmode" => "online",
-		"Connection" => "close",
-    }
-
-
-	ListingsHeaders = {
-		"Deliverylat" => "22.308047",
-		"Device" => "iPhone13,1",
-		"Appname" => "com.yuurewards.app",
-		"Storegroupv4" => "1-4002-8",
-		"Platform" => "IOS",
-		"Smartloading" => "0",
-		"Accept" => "*/*",
-		"Isopennotification" => "1",
-		"An_memberid" => "934480040720426",
-		"Wifistate" => "1",
-		"Ticketname" => "8F4AC269D7F83C8E508F9F4936D58F524CEBBDFA50619A93BCD206A13FB29C1D27C9D5C228097FFC27FE1CBD58EA7CEF27924684463E79371E8E4734795F6C93626DBCEBFBD53B63EF11237406824053BA381C5E295F434EDDDAB322CCF0BD689DB1FF40E5E268F70A2ED0B8BC74B837933B26FFFB703957D2AFB4440FF2694E",
-		"Channelid" => "APPSTORE",
-		"Screen" => "812*375",
-		"User-Agent" => "yuu/2.22.0 (iPhone; iOS 14.6; Scale/3.00)",
-		"Businesscode" => "1",
-		"Xyz" => "ac",
-		#"Storeid" => "4002",
-		"Deliverylng" => "113.918481",
-		"Uuid" => "e2873ced792d902efcbf56ba2ac0d91c35dd9c11",
-		"Version" => "5.7.0",
-		"Apiversion" => "5.7.0",
-		"Dmtenantid" => "11",
-		"Accept-Encoding" => "gzip, deflate",
-		#"Venderid" => "8",
-		"Dmall-Locale" => "en_US",
-		"Currenttime" => "1661509384067",
-		"Networktype" => "1",
-		"Sysversion" => "14.6",
-		"Accept-Language" => "en-US;q=1",
-		"Idfa" => "00000000-0000-0000-0000-000000000000",
-		"Env" => "app",
-		"Content-Type" => "application/x-www-form-urlencoded",
-		"Token" => "d52268e2-3beb-4545-9272-2b7e5c8f1938",
-		"Appmode" => "online",
-	}
-
 	AllHeaders = {
 		"accept-encoding" => "gzip",
 		#an_memberid:934480046302576
@@ -124,5 +52,58 @@ module ReqHeaders
 		"wifistate" => "1",
 		#x-newrelic-id:Vg4HU1VaCxADUlFUBwcPU1M=
 		#xyz:ac
+	}
+
+	StoreHeaders = {
+		"accept-encoding" => "gzip",
+		#an_memberid: 934480046302576
+		"apiversion" => "5.33.0",
+		"appmode" => "online",
+		"appname" => "com.rtasia.intl",
+		"businesscode" => "1",
+		#connection: Keep-Alive
+		#content-length: 355
+		"content-type" => "application/x-www-form-urlencoded",
+		#currenttime: 1692373569294
+		"deliverylat" => "22.2847577",
+		"deliverylng" => "114.1326485",
+		#device: Samsung Galaxy S10 vbox86p-userdebug 8.0.0 OPR6.170623.017 434 test-keys
+		"dmall-locale" => "en_US",
+		"dmtenantid" => "11",
+		#dsource:
+		"env" => "app",
+		#firstinstalltime: 1691673749494
+		#gatewaycache:
+		#host: flow.rta-os.com
+		#imei: 8dee7eef753ba3c2
+		#interface-class: com.dmall.atlas.client.dubbo.AtlasDubboService
+		#lastinstalltime: 1691673749494
+		#lat:
+		#lng:
+		#method: getAdPositions
+		"networktype" => "1",
+		#param-class: java.lang.String
+		"platform" => "ANDROID",
+		#screen: 2872*1440
+		#sdkversion: 1.33.2
+		#sessionid: 6153c92bea3244618a4c52e9c7978539
+		"smartloading" => "1",
+		#storegroupv4:
+		"storeid" => "551004",
+		"sysversion" => "Android-8.0.0",
+		#tdc:
+		#ticketname: 8D6D86F014E2222056CC1B1E42E3609928590623C4426240CEB0807CB8D9C3CE94C86EF6B62F022C96450473D1D3BC10B3721ED197A9016E1C82AE6FB20733E94104CCA11EEDC8143927EDEB32154F89777E8BEFFC5783229FB6F6BBB5BC35A018C319A0514C79B2CC51A65BD699CDC95A3D7EF1D2717BCE7B641BE8837B5CDE
+		#token: d82b5b95-8296-4dcc-a7ce-761b760ead9d
+		#tpc:
+		"user-agent" => "dmall/1.33.2 Dalvik/2.1.0 (Linux; U; Android 8.0.0; Galaxy S10 Build/OPR6.170623.017)",
+		#userid: 205627765
+		#utmid:
+		#utmsource:
+		#uuid: 1fb44c33-d914-49c8-9ebc-2d85dba7dd0c
+		"venderid" => "5",
+		"version" => "5.33.0",
+		"wifistate" => "1",
+		#x-newrelic-id: Vg4HU1VaCxADUlFUBwcPU1M=
+		"xyz" => "ac",
 	}
 end
