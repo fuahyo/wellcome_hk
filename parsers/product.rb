@@ -22,7 +22,7 @@ end
 
 cat_id = vars["cat_id"].to_s
 cat_name = vars["cat_name"]
-subcat_name = nil
+subcat_name = vars["subcat"]
 
 base_price_lc = (prod["warePrice"].to_f / 100.0)
 customer_price_lc = (prod["promotionWareVO"]["unitProPrice"].to_f / 100.0)
