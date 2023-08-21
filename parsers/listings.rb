@@ -83,8 +83,8 @@ products.each_with_index do |prod, idx|
     prod_name = prod["wareName"]
     prod_sku = prod["sku"]
 
-    #body = 'param={"sku":"prod_sku"}'
-    body = "param=%7B%22sku%22%3A%22#{prod_sku}%22%7D"
+    body = 'param={"lat":22.2847577,"lng":114.1326485,"sku":"prod_sku"}'
+    body = "param=%7B%22lat%22%3A#{vars["input_location"]["lat"]}%2C%22lng%22%3A#{vars["input_location"]["lng"]}%2C%22sku%22%3A%22#{prod_sku}%22%7D"
 
     pages << {
         page_type: "product",

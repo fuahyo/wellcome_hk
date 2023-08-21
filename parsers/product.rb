@@ -24,8 +24,8 @@ cat_id = vars["cat_id"].to_s
 cat_name = vars["cat_name"]
 subcat_name = nil
 
-customer_price_lc = (prod["promotionWareVO"]["unitProPrice"].to_f / 100.0)
 base_price_lc = (prod["warePrice"].to_f / 100.0)
+customer_price_lc = (prod["promotionWareVO"]["unitProPrice"].to_f / 100.0)
 has_discount = customer_price_lc < base_price_lc
 discount_percentage = has_discount ? GetFunc::Get_Discount(base_price_lc, customer_price_lc) : nil
 
