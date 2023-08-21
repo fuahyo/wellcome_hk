@@ -19,7 +19,7 @@ parsers:
     disabled: false
   - page_type: product
     file: ./parsers/product.rb
-    disabled: true
+    disabled: false
 
 finisher:
   file: ./finisher/finisher.rb

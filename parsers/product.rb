@@ -63,8 +63,8 @@ promo_attributes = JSON.generate({
 })
 
 
-latitude = nil
-longitude = nil
+latitude = vars["store_latitude"]
+longitude = vars["store_longitude"]
 reviews = nil
 store_reviews = nil
 item_attributes = nil
