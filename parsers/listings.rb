@@ -24,7 +24,13 @@ if current_page == 1
     end
     
     if brand_dict.count < 1
-        raise "empty brand list"
+        outputs << {
+            _collection: "subcat_no_brands",
+            nav_gid: page["gid"],
+            category_id: vars["cat_id"],
+            category_name: vars["cat_name"],
+            subcategory: vars["subcat"],
+        }
     end
 
 
@@ -57,7 +63,7 @@ if current_page == 1
         nav_gid: page["gid"],
         category_id: vars["cat_id"],
         category_name: vars["cat_name"],
-        #brand_count: brand_dict.count,
+        subcategory: vars["subcat"],
         prod_count: json["data"]["pageInfo"]["total"],
         total_pages: total_pages,
     }
