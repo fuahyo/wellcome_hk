@@ -61,6 +61,7 @@ cat1.each do |i|
                     "cat_id" => cat_id,
                     "cat_name" => cat_name,
                     "subcat" => subcat,
+                    "page_number" => 1,
                 )
             }
 

@@ -15,7 +15,10 @@ if current_page == 1
     json["data"]["properties"].each do |prop|
         if prop["propertyName"] == "Brands"
             prop["childProperties"].each do |brand|
-                brand_dict["#{brand["propertyId"]}"] = brand["propertyName"]
+                brand_id_arr = brand["propertyId"].split(",").map {|i| i.strip}
+                brand_id_arr.each do |brand_id|
+                    brand_dict["#{brand_id}"] = brand["propertyName"]
+                end
             end
         end
     end
@@ -54,7 +57,7 @@ if current_page == 1
         nav_gid: page["gid"],
         category_id: vars["cat_id"],
         category_name: vars["cat_name"],
-        brand_count: brand_dict.count,
+        #brand_count: brand_dict.count,
         prod_count: json["data"]["pageInfo"]["total"],
         total_pages: total_pages,
     }
@@ -74,7 +77,7 @@ products.each_with_index do |prod, idx|
     prod_name = prod["wareName"]
     prod_sku = prod["sku"]
 
-    #body = 'param={"sku":"prod_id"}'
+    #body = 'param={"sku":"prod_sku"}'
     body = "param=%7B%22sku%22%3A%22#{prod_sku}%22%7D"
 
     pages << {
