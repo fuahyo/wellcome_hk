@@ -30,3 +30,5 @@ exporters:
     disabled: false
   - file: ./exporters/products_csv.yaml
     disabled: false
+  - file: ./exporters/first_listings_page_info_csv.yaml
+    disabled: false

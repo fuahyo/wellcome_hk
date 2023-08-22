@@ -1,0 +1,18 @@
+exporter_name: first_listings_page_info_csv
+exporter_type: csv
+collection: first_listings_page_info
+no_subfolder: true
+start_on_job_done: false
+fields:
+  - header: "nav_gid"
+    path: "nav_gid"
+  - header: "category_id"
+    path: "category_id"
+  - header: "category_name"
+    path: "category_name"
+  - header: "subcategory"
+    path: "subcategory"
+  - header: "prod_count"
+    path: "prod_count"
+  - header: "total_pages"
+    path: "total_pages"
