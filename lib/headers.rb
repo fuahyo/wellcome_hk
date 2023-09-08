@@ -12,8 +12,8 @@ module ReqHeaders
 		#content-length:6
 		"content-type" => "application/x-www-form-urlencoded",
 		#currenttime:1692198896412
-		#deliverylat:22.2847577
-		#deliverylng:114.1326485
+		"deliverylat" => "22.2847577",
+		"deliverylng" => "114.1326485",
 		#device:Samsung Galaxy S10 vbox86p-userdebug 8.0.0 OPR6.170623.017 434 test-keys
 		"dmall-locale" => "en_US",
 		"dmtenantid" => "11",
