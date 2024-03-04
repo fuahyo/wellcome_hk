@@ -75,6 +75,7 @@ item_identifiers = JSON.generate({
 
 country_of_origin = prod["produceArea"]
 
+wareImgList
 outputs << {
     _collection: "products",
     _id: prod_id,
@@ -121,4 +122,12 @@ outputs << {
     item_identifiers: item_identifiers,
     country_of_origin: country_of_origin,
     variants: nil,
+    img_url_2: prod['wareImgList'][1],
+    img_url_3: prod['wareImgList'][2],
+    img_url_4: prod['wareImgList'][3],
+    nutrition_facts:
+    ingredients:
+    dimensions:
+    allergens:
+
 }
