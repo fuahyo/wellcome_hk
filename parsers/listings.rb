@@ -71,9 +71,6 @@ end
 
 
 products = json["data"]["wareList"]
-# File.open("listingjson.json","w") do |f|
-#     f.write(JSON.pretty_generate(json))
-# end
 if products.empty? || products.nil?
     raise "empty listings page"
 end
@@ -105,10 +102,3 @@ products.each_with_index do |prod, idx|
         )
     }
 end
-
-# File.open("listingOutput_arr.json","w") do |f|
-#     f.write(JSON.pretty_generate(outputs))
-# end
-# File.open("listingpage.json","w") do |f|
-#     f.write(JSON.pretty_generate(pages))
-# end
