@@ -1,0 +1,89 @@
+{
+  "code": "0000",
+  "data": {
+    "adWords": {
+      "linkDesc": "",
+      "content": "",
+      "url": ""
+    },
+    "allowCc": 1,
+    "brandId": 134034,
+    "clickCollectDesc": "Free delivery on orders above $200 for pick up at store",
+    "cornerMarkList": [
+
+    ],
+    "currentNone": false,
+    "deliveryDesc": "Deliver to any defined address",
+    "descImgList": [
+      "https://img.rtacdn-os.com/dshop/202301/6be780f0-f53a-435a-9d09-a5f5be8c405a"
+    ],
+    "descImgListNew": [
+      {
+        "type": 1,
+        "url": "https://img.rtacdn-os.com/dshop/202301/6be780f0-f53a-435a-9d09-a5f5be8c405a"
+      }
+    ],
+    "introduceList": [
+      {
+        "name": "Item Code",
+        "value": "131615"
+      },
+      {
+        "name": "Origin",
+        "value": "China"
+      },
+      {
+        "name": "Storage",
+        "value": "Ambient"
+      },
+      {
+        "name": "Spec",
+        "value": "50GM"
+      }
+    ],
+    "itemNum": "4899959030918",
+    "packingSpecification": "50GM",
+    "produceArea": "China",
+    "promotionWareVO": {
+      "anfieldDisplayPro": [
+
+      ],
+      "isMatchSimplePro": true,
+      "marketPrice": 5500,
+      "origPrice": 5500,
+      "promotionInfoList": [
+
+      ],
+      "showLinePrice": false,
+      "skuId": 113256809,
+      "skuName": "I.PA ANTI ODOR GRAN50GM",
+      "skuType": "MAIN_SKU",
+      "storeId": 43,
+      "unitProPrice": 5500,
+      "venderId": 5
+    },
+    "rfId": "131615",
+    "sell": false,
+    "sku": 113256809,
+    "storageTypeName": "Ambient",
+    "tagPreSell": false,
+    "wareBizIcon": "https://img.rtacdn-os.com/act/img/cj_icon4.png",
+    "wareId": 19226079,
+    "wareImgList": [
+      "https://img.rtacdn-os.com/20230404/251df57a-0c76-4b2c-b2b8-f94cc61c6a0e_800x800H"
+    ],
+    "wareImgListNew": [
+      {
+        "type": 1,
+        "url": "https://img.rtacdn-os.com/20230404/251df57a-0c76-4b2c-b2b8-f94cc61c6a0e"
+      }
+    ],
+    "wareName": "I.Pet Air Anti Odor & Bacterial Granutes 50GM",
+    "warePrice": "5500",
+    "wareStatus": 0,
+    "wareStock": 17,
+    "wareType": 0
+  },
+  "msg": "成功！",
+  "result": "成功！"
+}

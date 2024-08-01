@@ -1,0 +1,1653 @@
+{
+  "code": "0000",
+  "msg": "成功！",
+  "data": {
+    "properties": [
+      {
+        "parentId": null,
+        "propertyId": "1",
+        "propertyName": "Brands",
+        "sortValue": 3,
+        "showPosition": null,
+        "propertyType": null,
+        "childProperties": [
+          {
+            "parentId": "1",
+            "propertyId": "28242",
+            "propertyName": "ALCE NERO",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 9
+          },
+          {
+            "parentId": "1",
+            "propertyId": "32880",
+            "propertyName": "BARILLA",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 9
+          },
+          {
+            "parentId": "1",
+            "propertyId": "24971",
+            "propertyName": "DE CECCO",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 14
+          },
+          {
+            "parentId": "1",
+            "propertyId": "25273",
+            "propertyName": "DELVERDE",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          },
+          {
+            "parentId": "1",
+            "propertyId": "31945",
+            "propertyName": "DI MARTINO",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 3
+          },
+          {
+            "parentId": "1",
+            "propertyId": "29308",
+            "propertyName": "DIVELLA",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 1
+          },
+          {
+            "parentId": "1",
+            "propertyId": "152896",
+            "propertyName": "KNORR QS*",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 1
+          },
+          {
+            "parentId": "1",
+            "propertyId": "33811",
+            "propertyName": "LA MOLISANA",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 4
+          },
+          {
+            "parentId": "1",
+            "propertyId": "28570",
+            "propertyName": "MEADOWS",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 3
+          },
+          {
+            "parentId": "1",
+            "propertyId": "28603",
+            "propertyName": "RUSTICHELLA",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          },
+          {
+            "parentId": "1",
+            "propertyId": "31296",
+            "propertyName": "SAN REMO",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          },
+          {
+            "parentId": "1",
+            "propertyId": "144344",
+            "propertyName": "VERONELLI",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          }
+        ],
+        "suggestion": [
+          {
+            "parentId": "1",
+            "propertyId": "28570",
+            "propertyName": "MEADOWS",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 3
+          },
+          {
+            "parentId": "1",
+            "propertyId": "32880",
+            "propertyName": "BARILLA",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 9
+          },
+          {
+            "parentId": "1",
+            "propertyId": "24971",
+            "propertyName": "DE CECCO",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 14
+          },
+          {
+            "parentId": "1",
+            "propertyId": "33811",
+            "propertyName": "LA MOLISANA",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 4
+          },
+          {
+            "parentId": "1",
+            "propertyId": "31296",
+            "propertyName": "SAN REMO",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 1,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          }
+        ],
+        "checked": false,
+        "canMulti": true,
+        "wareNum": null
+      },
+      {
+        "parentId": null,
+        "propertyId": "9",
+        "propertyName": "Countries",
+        "sortValue": 7,
+        "showPosition": null,
+        "propertyType": null,
+        "childProperties": [
+          {
+            "parentId": "9",
+            "propertyId": "5",
+            "propertyName": "Australia",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 6,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          },
+          {
+            "parentId": "9",
+            "propertyId": "2",
+            "propertyName": "Hong Kong",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 6,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 1
+          },
+          {
+            "parentId": "9",
+            "propertyId": "79",
+            "propertyName": "Italy",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 6,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 47
+          },
+          {
+            "parentId": "9",
+            "propertyId": "59",
+            "propertyName": "Turkey",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 6,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          }
+        ],
+        "suggestion": [
+
+        ],
+        "checked": false,
+        "canMulti": true,
+        "wareNum": null
+      },
+      {
+        "parentId": null,
+        "propertyId": "10_0",
+        "propertyName": "Dietary Needs",
+        "sortValue": 8,
+        "showPosition": null,
+        "propertyType": null,
+        "childProperties": [
+          {
+            "parentId": "10_0",
+            "propertyId": "1166",
+            "propertyName": "Dairy-free",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 7,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 1
+          },
+          {
+            "parentId": "10_0",
+            "propertyId": "39",
+            "propertyName": "Gluten Free",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 7,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 1
+          },
+          {
+            "parentId": "10_0",
+            "propertyId": "29",
+            "propertyName": "Halal",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 7,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 5
+          },
+          {
+            "parentId": "10_0",
+            "propertyId": "69",
+            "propertyName": "Kosher",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 7,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 1
+          },
+          {
+            "parentId": "10_0",
+            "propertyId": "59",
+            "propertyName": "Organic",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 7,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 5
+          },
+          {
+            "parentId": "10_0",
+            "propertyId": "84",
+            "propertyName": "Vegan",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 7,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 1
+          }
+        ],
+        "suggestion": [
+
+        ],
+        "checked": false,
+        "canMulti": true,
+        "wareNum": null
+      },
+      {
+        "parentId": null,
+        "propertyId": "10_1",
+        "propertyName": "Type",
+        "sortValue": 8,
+        "showPosition": null,
+        "propertyType": null,
+        "childProperties": [
+          {
+            "parentId": "10_1",
+            "propertyId": "1151",
+            "propertyName": "Farfalle",
+            "sortValue": 0,
+            "showPosition": null,
+            "propertyType": 7,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 2
+          }
+        ],
+        "suggestion": [
+
+        ],
+        "checked": false,
+        "canMulti": true,
+        "wareNum": null
+      },
+      {
+        "parentId": null,
+        "propertyId": "3",
+        "propertyName": "Promotions",
+        "sortValue": 10,
+        "showPosition": null,
+        "propertyType": 3,
+        "childProperties": [
+          {
+            "parentId": "3",
+            "propertyId": "0",
+            "propertyName": "Show the promotional products only",
+            "sortValue": 10,
+            "showPosition": null,
+            "propertyType": 3,
+            "childProperties": [
+
+            ],
+            "suggestion": [
+
+            ],
+            "checked": false,
+            "canMulti": false,
+            "wareNum": 0
+          }
+        ],
+        "suggestion": [
+
+        ],
+        "checked": false,
+        "canMulti": false,
+        "wareNum": null
+      }
+    ],
+    "quickFilters": [
+      {
+        "propertyId": "1",
+        "propertyName": "Brands",
+        "childPropertyId": null,
+        "childPropertyName": null,
+        "sortValue": 2,
+        "displayStyle": 1
+      },
+      {
+        "propertyId": "9",
+        "propertyName": "Countries",
+        "childPropertyId": null,
+        "childPropertyName": null,
+        "sortValue": 3,
+        "displayStyle": 1
+      },
+      {
+        "propertyId": "3",
+        "propertyName": "Promotions",
+        "childPropertyId": "0",
+        "childPropertyName": "Show the promotional products only",
+        "sortValue": 5,
+        "displayStyle": 2
+      }
+    ],
+    "proTagList": [
+
+    ],
+    "redirectUrl": null,
+    "pageInfo": {
+      "pageNum": 1,
+      "pageSize": 20,
+      "total": 52,
+      "pageCount": 3
+    },
+    "wareList": [
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11548681",
+        "sku": 101579432,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Meadows Fusilli N16 500GM",
+        "warePrice": "1600",
+        "wareImg": "https://img.rtacdn-os.com/20231204/b01a2a0c-1a91-3e11-b47c-5af110ac0daf_240x240H",
+        "onlinePrice": 1600,
+        "onlinePromotionPrice": 1600,
+        "offlinePrice": 1600,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "true",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101579432,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 1600,
+          "origPrice": 1600,
+          "unitProPrice": 1600,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11548679",
+        "sku": 101579430,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Meadows Penne Rigate N18 500GM",
+        "warePrice": "1600",
+        "wareImg": "https://img.rtacdn-os.com/20231204/fe35cff4-3e80-381d-8726-ee482199b51f_240x240H",
+        "onlinePrice": 1600,
+        "onlinePromotionPrice": 1600,
+        "offlinePrice": 1600,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "true",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101579430,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 1600,
+          "origPrice": 1600,
+          "unitProPrice": 1600,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11295316",
+        "sku": 101326067,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Barilla Fusilli 500GM",
+        "warePrice": "2600",
+        "wareImg": "https://img.rtacdn-os.com/20210222/13f3bbf2-6d51-412e-b04b-7aa5eed753b2_240x240H",
+        "onlinePrice": 2600,
+        "onlinePromotionPrice": 2600,
+        "offlinePrice": 2600,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "true",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101326067,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2600,
+          "origPrice": 2600,
+          "unitProPrice": 2600,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11318771",
+        "sku": 101349522,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "San Remo Elbows#35 500GM",
+        "warePrice": "3200",
+        "wareImg": "https://img.rtacdn-os.com/20210126/c52e71f9-2aad-409f-b1a5-73ec56d9e7f3_240x240H",
+        "onlinePrice": 3200,
+        "onlinePromotionPrice": 1600,
+        "offlinePrice": 3200,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101349522,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 3200,
+          "origPrice": 3200,
+          "unitProPrice": 3200,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11548686",
+        "sku": 101579437,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Meadows Small Shells N28 500GM",
+        "warePrice": "1600",
+        "wareImg": "https://img.rtacdn-os.com/20231204/3168e280-a145-36d8-8064-f424f674fa73_240x240H",
+        "onlinePrice": 1600,
+        "onlinePromotionPrice": 1600,
+        "offlinePrice": 1600,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "true",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101579437,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 1600,
+          "origPrice": 1600,
+          "unitProPrice": 1600,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11295319",
+        "sku": 101326070,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Barilla Chifferi 500GM",
+        "warePrice": "2600",
+        "wareImg": "https://img.rtacdn-os.com/20230324/a6c71d37-bb3d-4e04-ab44-c50c05a0f898_240x240H",
+        "onlinePrice": 2600,
+        "onlinePromotionPrice": 2600,
+        "offlinePrice": 2600,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "true",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101326070,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2600,
+          "origPrice": 2600,
+          "unitProPrice": 2600,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11295315",
+        "sku": 101326066,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Barilla Penne Rigate 500GM",
+        "warePrice": "2600",
+        "wareImg": "https://img.rtacdn-os.com/20210222/91c80d21-73a8-4277-9950-d39e521c2132_240x240H",
+        "onlinePrice": 2600,
+        "onlinePromotionPrice": 2600,
+        "offlinePrice": 2600,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "true",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101326066,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2600,
+          "origPrice": 2600,
+          "unitProPrice": 2600,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11350346",
+        "sku": 101381097,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "La Molisana Penne Rigate #20  500GM",
+        "warePrice": "2300",
+        "wareImg": "https://img.rtacdn-os.com/20230714/6477e963-e03a-4c36-a388-f596131d913c_240x240H",
+        "onlinePrice": 2300,
+        "onlinePromotionPrice": 2300,
+        "offlinePrice": 2300,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101381097,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2300,
+          "origPrice": 2300,
+          "unitProPrice": 2300,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11350345",
+        "sku": 101381096,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "La Molisana Fusilli #28  500GM",
+        "warePrice": "2300",
+        "wareImg": "https://img.rtacdn-os.com/20230714/76c4de09-f8dc-4c32-9235-c1b97c149a89_240x240H",
+        "onlinePrice": 2300,
+        "onlinePromotionPrice": 2300,
+        "offlinePrice": 2300,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101381096,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2300,
+          "origPrice": 2300,
+          "unitProPrice": 2300,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11350347",
+        "sku": 101381098,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "La Molisana Farfalle Rigate #66  500GM",
+        "warePrice": "2300",
+        "wareImg": "https://img.rtacdn-os.com/20230714/8c58e05f-895e-4273-90f9-19101c75a059_240x240H",
+        "onlinePrice": 2300,
+        "onlinePromotionPrice": 2300,
+        "offlinePrice": 2300,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101381098,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2300,
+          "origPrice": 2300,
+          "unitProPrice": 2300,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11350344",
+        "sku": 101381095,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "La Molisana Chifferi Rigate #55  500GM",
+        "warePrice": "2300",
+        "wareImg": "https://img.rtacdn-os.com/20230714/fb17303e-0568-4c61-a6ad-e99799317780_240x240H",
+        "onlinePrice": 2300,
+        "onlinePromotionPrice": 2300,
+        "offlinePrice": 2300,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101381095,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2300,
+          "origPrice": 2300,
+          "unitProPrice": 2300,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11312700",
+        "sku": 101343451,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Barilla Farfalle 500GM",
+        "warePrice": "2900",
+        "wareImg": "https://img.rtacdn-os.com/20210222/b8f6eaa8-4eac-4ea6-b82a-b99e78bff815_240x240H",
+        "onlinePrice": 2900,
+        "onlinePromotionPrice": 2600,
+        "offlinePrice": 2900,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101343451,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2900,
+          "origPrice": 2900,
+          "unitProPrice": 2900,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11339126",
+        "sku": 101369877,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "De Cecco Penne 500GM",
+        "warePrice": "2900",
+        "wareImg": "https://img.rtacdn-os.com/20200414/5ccd8961-f6c1-4b32-85f0-d4b6e2bca1b3_240x240H",
+        "onlinePrice": 2900,
+        "onlinePromotionPrice": 2900,
+        "offlinePrice": 2900,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101369877,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2900,
+          "origPrice": 2900,
+          "unitProPrice": 2900,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11291966",
+        "sku": 101322717,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "De Cecco Fusilli N34 500GM",
+        "warePrice": "2900",
+        "wareImg": "https://img.rtacdn-os.com/20210513/4601b4a3-eed7-4690-8d8e-f0efea95c819_240x240H",
+        "onlinePrice": 2900,
+        "onlinePromotionPrice": 2900,
+        "offlinePrice": 2900,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101322717,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2900,
+          "origPrice": 2900,
+          "unitProPrice": 2900,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11305366",
+        "sku": 101336117,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "KNORR CHICKEN MARCARONI\\5 80 GM",
+        "warePrice": "2900",
+        "wareImg": "https://img.rtacdn-os.com/20210518/ed5e4fc3-16d8-4661-a6d6-6be924773371_240x240H",
+        "onlinePrice": 2900,
+        "onlinePromotionPrice": 2600,
+        "offlinePrice": 2900,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101336117,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2900,
+          "origPrice": 2900,
+          "unitProPrice": 2600,
+          "showLinePrice": true,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11291851",
+        "sku": 101322602,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "De Cecco Lumachine N180 500GM",
+        "warePrice": "2900",
+        "wareImg": "https://img.rtacdn-os.com/20210513/30e83c94-a770-4259-a064-4d37f476a5e4_240x240H",
+        "onlinePrice": 2900,
+        "onlinePromotionPrice": 2500,
+        "offlinePrice": 2900,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101322602,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2900,
+          "origPrice": 2900,
+          "unitProPrice": 2900,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11322464",
+        "sku": 101353215,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Alce Nero Organic Fusilli Tricolor 500GM",
+        "warePrice": "3100",
+        "wareImg": "https://img.rtacdn-os.com/20200121/5b3290f8-ae51-431d-8e1a-d38424aef1b4_240x240H",
+        "onlinePrice": 3100,
+        "onlinePromotionPrice": 3100,
+        "offlinePrice": 3100,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101353215,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 3100,
+          "origPrice": 3100,
+          "unitProPrice": 3100,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11322431",
+        "sku": 101353182,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Alce Nero Organic Penne Wholemeal 500GM",
+        "warePrice": "2700",
+        "wareImg": "https://img.rtacdn-os.com/20200413/70c4afb6-b9a3-4c7b-aa15-ab4a4783e269_240x240H",
+        "onlinePrice": 2700,
+        "onlinePromotionPrice": 2700,
+        "offlinePrice": 2700,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101353182,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2700,
+          "origPrice": 2700,
+          "unitProPrice": 2700,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11291920",
+        "sku": 101322671,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "Dececco Farfalle N93 500GM",
+        "warePrice": "3000",
+        "wareImg": "https://img.rtacdn-os.com/20201222/8bcc077e-fb1c-4a0b-8948-a81ff14868a5_240x240H",
+        "onlinePrice": 3000,
+        "onlinePromotionPrice": 2500,
+        "offlinePrice": 3000,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 1,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101322671,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 3000,
+          "origPrice": 3000,
+          "unitProPrice": 3000,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      },
+      {
+        "venderId": 5,
+        "storeId": 43,
+        "wareId": "11317650",
+        "sku": 101348401,
+        "brand": null,
+        "thirdCmCats": null,
+        "wareName": "DIVELLA PENNE 500 GM",
+        "warePrice": "2400",
+        "wareImg": "https://img.rtacdn-os.com/20230905/0ec85966-6fd7-32c9-aed2-6fdc8d339783_240x240H",
+        "onlinePrice": 2400,
+        "onlinePromotionPrice": 1690,
+        "offlinePrice": 2400,
+        "wareStatus": 0,
+        "status": "1",
+        "promoting": "false",
+        "priceDisplay": "",
+        "resultType": 1,
+        "cornerMarkList": null,
+        "packingSpecification": null,
+        "searchRecTitle": null,
+        "skuTagDataList": [
+
+        ],
+        "resultData": null,
+        "recallName": null,
+        "recallTag": -1,
+        "venderName": null,
+        "allowCc": 0,
+        "preOrderSaleStart": null,
+        "preOrderSaleEnd": null,
+        "searchTestInfo": null,
+        "tagPreSell": null,
+        "promotionWareVO": {
+          "skuId": 101348401,
+          "skuName": null,
+          "venderId": null,
+          "storeId": null,
+          "priceCalcProId": null,
+          "marketPrice": 2400,
+          "origPrice": 2400,
+          "unitProPrice": 2400,
+          "showLinePrice": false,
+          "promotionInfoList": [
+
+          ],
+          "promotionInfoListUp": null,
+          "matchSimplePro": null
+        }
+      }
+    ],
+    "noResultData": {
+      "resultTip": null,
+      "resultObject": [
+
+      ]
+    },
+    "queryID": "6c99a185a3e8bc596c93f56eae2c3cec",
+    "indexName": "ware_index",
+    "resultType": 2,
+    "recallType": 2,
+    "spellCheckTip": null,
+    "spellCheckWord": null,
+    "banner": null,
+    "shunterResults": [
+      {
+        "id": null,
+        "abtId": null,
+        "abtName": null,
+        "abtGroupId": null,
+        "abtGroupName": null,
+        "start": null,
+        "end": null,
+        "pointedServiceCode": 1001,
+        "pointedService": "RTA",
+        "abtRange": null
+      }
+    ],
+    "termWords": [
+
+    ]
+  },
+  "action": null,
+  "gatewayCache": null,
+  "act": null,
+  "gatewayUUID": null,
+  "success": null
+}
