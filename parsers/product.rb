@@ -121,7 +121,7 @@ pages << {
         img_url: img_url,
         barcode: prod_id,
         sku: prod_sku,
-        url: nil,
+        url: newUrl,
         is_available: is_available,
         crawled_source: "APP",
         is_promoted: is_promoted,
