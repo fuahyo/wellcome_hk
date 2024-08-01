@@ -88,7 +88,7 @@ pages << {
     url: newUrl,
     method: "GET",
     headers: headers,
-    verify: false,
+    # verify: false,
     page_type: "detail",
     vars: {
         _collection: "products",
