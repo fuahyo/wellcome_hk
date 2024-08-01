@@ -10,7 +10,7 @@ end
 promo_attributes = list_promo_attributes.join(', ') 
 if vars['promo_attributes'] == "{\"promo_details\":\"\"}" 
   vars['promo_attributes'] = "{\"promo_details\":\""+(promo_attributes || "")+"\"}"
-  vars['type_of_promotion'] = 'Offers' if !promo_attributes.nil?
+  vars['type_of_promotion'] = 'offer' if !promo_attributes.nil?
   vars['is_promoted'] = !promo_attributes.nil?
 end
  
