@@ -20,6 +20,9 @@ parsers:
   - page_type: product
     file: ./parsers/product.rb
     disabled: false
+  - page_type: detail
+    file: ./parsers/detail.rb
+    disabled: false
 
 finisher:
   file: ./finisher/finisher.rb
