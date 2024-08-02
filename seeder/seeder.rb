@@ -81,7 +81,7 @@ pages << {
       is_available: true,
       crawled_source: "APP",
       is_promoted: false,
-      type_of_promotion: null,
+      type_of_promotion: nil,
       promo_attributes: "{\"promo_details\":\"\"}",
       is_private_label: true,
       latitude: 22.284968,
