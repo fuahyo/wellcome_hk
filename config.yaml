@@ -8,18 +8,18 @@ seeder:
   disabled: false
 
 parsers:
-  - page_type: store
-    file: ./parsers/store.rb
-    disabled: false
-  - page_type: categories
-    file: ./parsers/categories.rb
-    disabled: false
-  - page_type: listings
-    file: ./parsers/listings.rb
-    disabled: false
-  - page_type: product
-    file: ./parsers/product.rb
-    disabled: false
+  # - page_type: store
+  #   file: ./parsers/store.rb
+  #   disabled: false
+  # - page_type: categories
+  #   file: ./parsers/categories.rb
+  #   disabled: false
+  # - page_type: listings
+  #   file: ./parsers/listings.rb
+  #   disabled: false
+  # - page_type: product
+  #   file: ./parsers/product.rb
+  #   disabled: false
   - page_type: detail
     file: ./parsers/detail.rb
     disabled: false
@@ -33,5 +33,5 @@ exporters:
     disabled: false
   - file: ./exporters/products_csv.yaml
     disabled: false
-  - file: ./exporters/first_listings_page_info_csv.yaml
-    disabled: false
+  # - file: ./exporters/first_listings_page_info_csv.yaml
+  #   disabled: false
