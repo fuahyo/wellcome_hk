@@ -14,4 +14,4 @@ if vars['promo_attributes'] == "{\"promo_details\":\"\"}"
   vars['is_promoted'] = !promo_attributes.nil?
 end
  
-output << vars
+outputs << vars
