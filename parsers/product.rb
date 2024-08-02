@@ -79,7 +79,7 @@ item_identifiers = JSON.generate({
 
 country_of_origin = prod["produceArea"]
 
-# newUrl = 'https://www.wellcome.com.hk/en/p/'+prod_name.gsub(' ', '%20')+'/i/'+prod_sku+'.html'
+newUrl = 'https://www.wellcome.com.hk/en/p/'+prod_name.gsub(' ', '%20')+'/i/'+prod_sku+'.html'
 # headers = { 
 #   'Cookie' => 'superweb-locale=en_US; pickUpStoreId=; shipmentType=1; venderId=5; _ga=GA1.1.262739087.1722497632;',
 #   'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
