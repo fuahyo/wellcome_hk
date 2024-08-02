@@ -8,21 +8,21 @@ seeder:
   disabled: false
 
 parsers:
-  # - page_type: store
-  #   file: ./parsers/store.rb
-  #   disabled: false
-  # - page_type: categories
-  #   file: ./parsers/categories.rb
-  #   disabled: false
-  # - page_type: listings
-  #   file: ./parsers/listings.rb
-  #   disabled: false
-  # - page_type: product
-  #   file: ./parsers/product.rb
-  #   disabled: false
-  - page_type: detail
-    file: ./parsers/detail.rb
+  - page_type: store
+    file: ./parsers/store.rb
     disabled: false
+  - page_type: categories
+    file: ./parsers/categories.rb
+    disabled: false
+  - page_type: listings
+    file: ./parsers/listings.rb
+    disabled: false
+  - page_type: product
+    file: ./parsers/product.rb
+    disabled: false
+  # - page_type: detail
+  #   file: ./parsers/detail.rb
+  #   disabled: false
 
 finisher:
   file: ./finisher/finisher.rb
