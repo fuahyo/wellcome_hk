@@ -66,7 +66,10 @@ cat1.each do |i|
                 )
             }
 
-            save_pages pages if pages.count > 99
+            save_pages pages if pages.count > 2
+            break if pages.count > 2
         end
+        break if pages.count > 2
     end
-end
+    break if pages.count > 2
+end  
